@@ -17,9 +17,14 @@ namespace Kółko_i_krzyżyk
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Witam", "Kółko i krzyżyk");
+        }
 
+        private void wyjścieToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
