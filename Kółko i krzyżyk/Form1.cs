@@ -44,8 +44,8 @@ namespace Kółko_i_krzyżyk
             B.Enabled = false;
 
             Zwyciezca();
+           
         }
-
         private void Zwyciezca()
         {
             bool zwyciezca_jest = false;
@@ -65,9 +65,10 @@ namespace Kółko_i_krzyżyk
                 else
                     zwyciezca = "X";
 
-                MessageBox.Show(zwyciezca + " Wygrywa!!", "Yay!!");
+                MessageBox.Show(zwyciezca + "Wins", "Yay!!");
             }
         }
+
 
     }
 }
