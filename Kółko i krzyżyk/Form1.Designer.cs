@@ -75,7 +75,7 @@
             // wyjścieToolStripMenuItem
             // 
             this.wyjścieToolStripMenuItem.Name = "wyjścieToolStripMenuItem";
-            this.wyjścieToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.wyjścieToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.wyjścieToolStripMenuItem.Text = "Wyjście";
             this.wyjścieToolStripMenuItem.Click += new System.EventHandler(this.wyjścieToolStripMenuItem_Click);
             // 
@@ -90,7 +90,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -101,8 +101,8 @@
             this.A1.Name = "A1";
             this.A1.Size = new System.Drawing.Size(75, 75);
             this.A1.TabIndex = 1;
-            this.A1.Text = "X";
             this.A1.UseVisualStyleBackColor = true;
+            this.A1.Click += new System.EventHandler(this.przycisk);
             // 
             // A2
             // 
@@ -111,8 +111,8 @@
             this.A2.Name = "A2";
             this.A2.Size = new System.Drawing.Size(75, 75);
             this.A2.TabIndex = 2;
-            this.A2.Text = "X";
             this.A2.UseVisualStyleBackColor = true;
+            this.A2.Click += new System.EventHandler(this.przycisk);
             // 
             // A3
             // 
@@ -121,8 +121,8 @@
             this.A3.Name = "A3";
             this.A3.Size = new System.Drawing.Size(75, 75);
             this.A3.TabIndex = 3;
-            this.A3.Text = "X";
             this.A3.UseVisualStyleBackColor = true;
+            this.A3.Click += new System.EventHandler(this.przycisk);
             // 
             // B3
             // 
@@ -131,8 +131,8 @@
             this.B3.Name = "B3";
             this.B3.Size = new System.Drawing.Size(75, 75);
             this.B3.TabIndex = 6;
-            this.B3.Text = "X";
             this.B3.UseVisualStyleBackColor = true;
+            this.B3.Click += new System.EventHandler(this.przycisk);
             // 
             // B2
             // 
@@ -141,8 +141,8 @@
             this.B2.Name = "B2";
             this.B2.Size = new System.Drawing.Size(75, 75);
             this.B2.TabIndex = 5;
-            this.B2.Text = "X";
             this.B2.UseVisualStyleBackColor = true;
+            this.B2.Click += new System.EventHandler(this.przycisk);
             // 
             // B1
             // 
@@ -151,8 +151,8 @@
             this.B1.Name = "B1";
             this.B1.Size = new System.Drawing.Size(75, 75);
             this.B1.TabIndex = 4;
-            this.B1.Text = "X";
             this.B1.UseVisualStyleBackColor = true;
+            this.B1.Click += new System.EventHandler(this.przycisk);
             // 
             // C3
             // 
@@ -161,8 +161,8 @@
             this.C3.Name = "C3";
             this.C3.Size = new System.Drawing.Size(75, 75);
             this.C3.TabIndex = 9;
-            this.C3.Text = "X";
             this.C3.UseVisualStyleBackColor = true;
+            this.C3.Click += new System.EventHandler(this.przycisk);
             // 
             // C2
             // 
@@ -171,8 +171,8 @@
             this.C2.Name = "C2";
             this.C2.Size = new System.Drawing.Size(75, 75);
             this.C2.TabIndex = 8;
-            this.C2.Text = "X";
             this.C2.UseVisualStyleBackColor = true;
+            this.C2.Click += new System.EventHandler(this.przycisk);
             // 
             // C1
             // 
@@ -181,8 +181,8 @@
             this.C1.Name = "C1";
             this.C1.Size = new System.Drawing.Size(75, 75);
             this.C1.TabIndex = 7;
-            this.C1.Text = "X";
             this.C1.UseVisualStyleBackColor = true;
+            this.C1.Click += new System.EventHandler(this.przycisk);
             // 
             // Form1
             // 
