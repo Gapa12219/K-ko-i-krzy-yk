@@ -65,8 +65,9 @@ namespace Kółko_i_krzyżyk
                 else
                     zwyciezca = "X";
 
-                MessageBox.Show(zwyciezca + "Wins", "Yay!!");
+                MessageBox.Show(zwyciezca + " Wygrywa!!", "Yay!!");
             }
         }
+
     }
 }
