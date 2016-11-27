@@ -59,6 +59,8 @@ namespace Kółko_i_krzyżyk
 
             if (zwyciezca_jest)
             {
+                DPrzycisk();
+
                 String zwyciezca = "";
                 if (tura)
                     zwyciezca = "O";
@@ -69,6 +71,18 @@ namespace Kółko_i_krzyżyk
             }
         }
 
+        private void DPrzycisk()
+        {
+            try
+            {
+                foreach (Control c in Controls)
+                {
+                    Button b = (Button)c;
+                    b.Enabled = false;
+                }
+            }
+            catch { }
+        }
 
     }
 }
