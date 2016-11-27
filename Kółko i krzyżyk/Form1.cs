@@ -58,6 +58,13 @@ namespace Kółko_i_krzyżyk
             else if ((C1.Text == C2.Text) && (C2.Text == C3.Text) && (!C1.Enabled))
                 zwyciezca_jest = true;
 
+            else if ((A1.Text == B1.Text) && (B1.Text == C1.Text) && (!A1.Enabled))
+                zwyciezca_jest = true;
+            else if ((A2.Text == B2.Text) && (B2.Text == C2.Text) && (!A2.Enabled))
+                zwyciezca_jest = true;
+            else if ((A3.Text == B3.Text) && (B3.Text == C3.Text) && (!A3.Enabled))
+                zwyciezca_jest = true;
+
             if (zwyciezca_jest)
             {
                 DPrzycisk();
@@ -68,7 +75,7 @@ namespace Kółko_i_krzyżyk
                 else
                     zwyciezca = "X";
 
-                MessageBox.Show(zwyciezca + "Wins", "Yay!!");
+                MessageBox.Show(zwyciezca + " Wygrywa", "Yay!!");
             }else
             {
                 if (tura_count == 9)
