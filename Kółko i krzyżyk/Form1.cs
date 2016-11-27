@@ -42,6 +42,7 @@ namespace Kółko_i_krzyżyk
             }
             tura = !tura;
             B.Enabled = false;
+            tura_count++;
 
             Zwyciezca();
            
@@ -68,6 +69,10 @@ namespace Kółko_i_krzyżyk
                     zwyciezca = "X";
 
                 MessageBox.Show(zwyciezca + "Wins", "Yay!!");
+            }else
+            {
+                if (tura_count == 9)
+                    MessageBox.Show("Remis", "Ehhh");
             }
         }
 
