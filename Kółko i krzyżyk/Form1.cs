@@ -65,6 +65,11 @@ namespace Kółko_i_krzyżyk
             else if ((A3.Text == B3.Text) && (B3.Text == C3.Text) && (!A3.Enabled))
                 zwyciezca_jest = true;
 
+            else if ((A1.Text == B2.Text) && (B2.Text == C3.Text) && (!A1.Enabled))
+                zwyciezca_jest = true;
+            else if ((A3.Text == B2.Text) && (B2.Text == C1.Text) && (!A3.Enabled))
+                zwyciezca_jest = true;
+
             if (zwyciezca_jest)
             {
                 DPrzycisk();
