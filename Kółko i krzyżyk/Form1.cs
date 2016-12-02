@@ -101,5 +101,21 @@ namespace Kółko_i_krzyżyk
             catch { }
         }
 
+        private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            tura = true;
+            tura_count = 0;
+
+            try
+            {
+                foreach (Control c in Controls)
+                {
+                    Button b = (Button)c;
+                    b.Enabled = false;
+                    b.Text = "";
+                }
+            }
+            catch { }
+        }
     }
 }
