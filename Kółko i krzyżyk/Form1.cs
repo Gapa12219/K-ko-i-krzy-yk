@@ -117,5 +117,21 @@ namespace Kółko_i_krzyżyk
             }
             catch { }
         }
+
+        private void button_enter(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            if (b.Enabled)
+            {
+                if (tura)
+                {
+                    b.Text = "X";
+                }
+                else
+                {
+                    b.Text = "O";
+                }
+            }
+        }
     }
 }
