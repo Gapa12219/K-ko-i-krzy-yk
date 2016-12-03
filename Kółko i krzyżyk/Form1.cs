@@ -133,5 +133,14 @@ namespace Kółko_i_krzyżyk
                 }
             }
         }
+
+        private void button_leave(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            if (b.Enabled)
+            {
+                b.Text = "";
+            }
+        }
     }
 }

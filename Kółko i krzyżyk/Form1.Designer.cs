@@ -105,6 +105,7 @@
             this.A1.UseVisualStyleBackColor = true;
             this.A1.Click += new System.EventHandler(this.przycisk);
             this.A1.MouseEnter += new System.EventHandler(this.button_enter);
+            this.A1.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // A2
             // 
@@ -115,6 +116,8 @@
             this.A2.TabIndex = 2;
             this.A2.UseVisualStyleBackColor = true;
             this.A2.Click += new System.EventHandler(this.przycisk);
+            this.A2.MouseEnter += new System.EventHandler(this.button_enter);
+            this.A2.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // A3
             // 
@@ -125,6 +128,8 @@
             this.A3.TabIndex = 3;
             this.A3.UseVisualStyleBackColor = true;
             this.A3.Click += new System.EventHandler(this.przycisk);
+            this.A3.MouseEnter += new System.EventHandler(this.button_enter);
+            this.A3.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // B3
             // 
@@ -135,6 +140,8 @@
             this.B3.TabIndex = 6;
             this.B3.UseVisualStyleBackColor = true;
             this.B3.Click += new System.EventHandler(this.przycisk);
+            this.B3.MouseEnter += new System.EventHandler(this.button_enter);
+            this.B3.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // B2
             // 
@@ -145,6 +152,8 @@
             this.B2.TabIndex = 5;
             this.B2.UseVisualStyleBackColor = true;
             this.B2.Click += new System.EventHandler(this.przycisk);
+            this.B2.MouseEnter += new System.EventHandler(this.button_enter);
+            this.B2.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // B1
             // 
@@ -155,6 +164,8 @@
             this.B1.TabIndex = 4;
             this.B1.UseVisualStyleBackColor = true;
             this.B1.Click += new System.EventHandler(this.przycisk);
+            this.B1.MouseEnter += new System.EventHandler(this.button_enter);
+            this.B1.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // C3
             // 
@@ -165,6 +176,8 @@
             this.C3.TabIndex = 9;
             this.C3.UseVisualStyleBackColor = true;
             this.C3.Click += new System.EventHandler(this.przycisk);
+            this.C3.MouseEnter += new System.EventHandler(this.button_enter);
+            this.C3.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // C2
             // 
@@ -175,6 +188,8 @@
             this.C2.TabIndex = 8;
             this.C2.UseVisualStyleBackColor = true;
             this.C2.Click += new System.EventHandler(this.przycisk);
+            this.C2.MouseEnter += new System.EventHandler(this.button_enter);
+            this.C2.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // C1
             // 
@@ -185,6 +200,8 @@
             this.C1.TabIndex = 7;
             this.C1.UseVisualStyleBackColor = true;
             this.C1.Click += new System.EventHandler(this.przycisk);
+            this.C1.MouseEnter += new System.EventHandler(this.button_enter);
+            this.C1.MouseLeave += new System.EventHandler(this.button_leave);
             // 
             // Form1
             // 
