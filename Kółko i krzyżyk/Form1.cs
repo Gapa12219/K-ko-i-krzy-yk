@@ -152,5 +152,12 @@ namespace Kółko_i_krzyżyk
                 b.Text = "";
             }
         }
+
+        private void resetPunktówToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            o_wygrana.Text = "0";
+            x_wygrana.Text = "0";
+            remis.Text = "0";
+        }
     }
 }

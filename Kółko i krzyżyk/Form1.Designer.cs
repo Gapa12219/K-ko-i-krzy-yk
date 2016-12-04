@@ -49,6 +49,7 @@
             this.x_wygrana = new System.Windows.Forms.Label();
             this.remis = new System.Windows.Forms.Label();
             this.o_wygrana = new System.Windows.Forms.Label();
+            this.resetPunktówToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,6 +68,7 @@
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newGameToolStripMenuItem,
+            this.resetPunktówToolStripMenuItem,
             this.wyjścieToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -75,14 +77,14 @@
             // newGameToolStripMenuItem
             // 
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.newGameToolStripMenuItem.Text = "Nowa gra";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
             // 
             // wyjścieToolStripMenuItem
             // 
             this.wyjścieToolStripMenuItem.Name = "wyjścieToolStripMenuItem";
-            this.wyjścieToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.wyjścieToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.wyjścieToolStripMenuItem.Text = "Wyjście";
             this.wyjścieToolStripMenuItem.Click += new System.EventHandler(this.wyjścieToolStripMenuItem_Click);
             // 
@@ -266,6 +268,13 @@
             this.o_wygrana.TabIndex = 15;
             this.o_wygrana.Text = "0";
             // 
+            // resetPunktówToolStripMenuItem
+            // 
+            this.resetPunktówToolStripMenuItem.Name = "resetPunktówToolStripMenuItem";
+            this.resetPunktówToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.resetPunktówToolStripMenuItem.Text = "Reset Punktów";
+            this.resetPunktówToolStripMenuItem.Click += new System.EventHandler(this.resetPunktówToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -323,6 +332,7 @@
         private System.Windows.Forms.Label x_wygrana;
         private System.Windows.Forms.Label remis;
         private System.Windows.Forms.Label o_wygrana;
+        private System.Windows.Forms.ToolStripMenuItem resetPunktówToolStripMenuItem;
     }
 }
 
