@@ -76,15 +76,23 @@ namespace Kółko_i_krzyżyk
 
                 String zwyciezca = "";
                 if (tura)
+                {
                     zwyciezca = "O";
+                    o_wygrana.Text = (Int32.Parse(o_wygrana.Text) + 1).ToString();
+                }
                 else
+                {
                     zwyciezca = "X";
-
+                    x_wygrana.Text = (Int32.Parse(x_wygrana.Text) + 1).ToString();
+                }
                 MessageBox.Show(zwyciezca + " Wygrywa", "Yay!!");
             }else
             {
                 if (tura_count == 9)
+                {
+                    remis.Text = (Int32.Parse(remis.Text) + 1).ToString();
                     MessageBox.Show("Remis", "Ehhh");
+                }
             }
         }
 
@@ -106,16 +114,18 @@ namespace Kółko_i_krzyżyk
             tura = true;
             tura_count = 0;
 
-            try
-            {
+           
                 foreach (Control c in Controls)
                 {
+                try
+                {
                     Button b = (Button)c;
-                    b.Enabled = false;
+                    b.Enabled = true;
                     b.Text = "";
                 }
-            }
-            catch { }
+                catch { }
+                }
+           
         }
 
         private void button_enter(object sender, EventArgs e)

@@ -46,9 +46,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.x_wygrana = new System.Windows.Forms.Label();
+            this.remis = new System.Windows.Forms.Label();
+            this.o_wygrana = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -239,41 +239,41 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "O Wygrana";
             // 
-            // label4
+            // x_wygrana
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(291, 66);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 13);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "0";
+            this.x_wygrana.AutoSize = true;
+            this.x_wygrana.Location = new System.Drawing.Point(291, 66);
+            this.x_wygrana.Name = "x_wygrana";
+            this.x_wygrana.Size = new System.Drawing.Size(13, 13);
+            this.x_wygrana.TabIndex = 13;
+            this.x_wygrana.Text = "0";
             // 
-            // label5
+            // remis
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(291, 147);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(13, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "0";
+            this.remis.AutoSize = true;
+            this.remis.Location = new System.Drawing.Point(291, 147);
+            this.remis.Name = "remis";
+            this.remis.Size = new System.Drawing.Size(13, 13);
+            this.remis.TabIndex = 14;
+            this.remis.Text = "0";
             // 
-            // label6
+            // o_wygrana
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(291, 228);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(13, 13);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "0";
+            this.o_wygrana.AutoSize = true;
+            this.o_wygrana.Location = new System.Drawing.Point(291, 228);
+            this.o_wygrana.Name = "o_wygrana";
+            this.o_wygrana.Size = new System.Drawing.Size(13, 13);
+            this.o_wygrana.TabIndex = 15;
+            this.o_wygrana.Text = "0";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(367, 294);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.o_wygrana);
+            this.Controls.Add(this.remis);
+            this.Controls.Add(this.x_wygrana);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -320,9 +320,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label x_wygrana;
+        private System.Windows.Forms.Label remis;
+        private System.Windows.Forms.Label o_wygrana;
     }
 }
 
