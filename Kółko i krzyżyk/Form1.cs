@@ -79,19 +79,24 @@ namespace Kółko_i_krzyżyk
                 {
                     zwyciezca = "O";
                     o_wygrana.Text = (Int32.Parse(o_wygrana.Text) + 1).ToString();
+                    
                 }
                 else
                 {
                     zwyciezca = "X";
                     x_wygrana.Text = (Int32.Parse(x_wygrana.Text) + 1).ToString();
+                    
+
                 }
                 MessageBox.Show(zwyciezca + " Wygrywa", "Yay!!");
+                newGameToolStripMenuItem.PerformClick(); 
             }else
             {
                 if (tura_count == 9)
                 {
                     remis.Text = (Int32.Parse(remis.Text) + 1).ToString();
                     MessageBox.Show("Remis", "Ehhh");
+                    newGameToolStripMenuItem.PerformClick();
                 }
             }
         }
