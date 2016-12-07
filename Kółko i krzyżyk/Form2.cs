@@ -19,7 +19,8 @@ namespace Kółko_i_krzyżyk
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form1.NazwaGracza(p1.Text, p2.Text);
+            this.Close();
         }
     }
 }

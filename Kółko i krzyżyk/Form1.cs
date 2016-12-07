@@ -14,10 +14,17 @@ namespace Kółko_i_krzyżyk
     {
         bool tura = true;
         int tura_count = 0;
+        static String gracz1, gracz2;
 
         public Form1()
         {
             InitializeComponent();
+        }
+
+        public static void NazwaGracza(String n1, String n2)
+        {
+            gracz1 = n1;
+            gracz2 = n2;
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
