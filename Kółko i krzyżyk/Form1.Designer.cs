@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resetPunktówToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wyjścieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,7 +50,6 @@
             this.x_wygrana = new System.Windows.Forms.Label();
             this.remis = new System.Windows.Forms.Label();
             this.o_wygrana = new System.Windows.Forms.Label();
-            this.resetPunktówToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,6 +80,13 @@
             this.newGameToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.newGameToolStripMenuItem.Text = "Nowa gra";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
+            // 
+            // resetPunktówToolStripMenuItem
+            // 
+            this.resetPunktówToolStripMenuItem.Name = "resetPunktówToolStripMenuItem";
+            this.resetPunktówToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.resetPunktówToolStripMenuItem.Text = "Reset Punktów";
+            this.resetPunktówToolStripMenuItem.Click += new System.EventHandler(this.resetPunktówToolStripMenuItem_Click);
             // 
             // wyjścieToolStripMenuItem
             // 
@@ -268,13 +275,6 @@
             this.o_wygrana.TabIndex = 15;
             this.o_wygrana.Text = "0";
             // 
-            // resetPunktówToolStripMenuItem
-            // 
-            this.resetPunktówToolStripMenuItem.Name = "resetPunktówToolStripMenuItem";
-            this.resetPunktówToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.resetPunktówToolStripMenuItem.Text = "Reset Punktów";
-            this.resetPunktówToolStripMenuItem.Click += new System.EventHandler(this.resetPunktówToolStripMenuItem_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -302,6 +302,7 @@
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "Kółko i krzyżyk";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

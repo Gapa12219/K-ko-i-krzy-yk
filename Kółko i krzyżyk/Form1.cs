@@ -164,5 +164,11 @@ namespace Kółko_i_krzyżyk
             x_wygrana.Text = "0";
             remis.Text = "0";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
+        }
     }
 }
