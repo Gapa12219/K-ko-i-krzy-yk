@@ -84,13 +84,13 @@ namespace Kółko_i_krzyżyk
                 String zwyciezca = "";
                 if (tura)
                 {
-                    zwyciezca = "O";
+                    zwyciezca = gracz2;
                     o_wygrana.Text = (Int32.Parse(o_wygrana.Text) + 1).ToString();
                     
                 }
                 else
                 {
-                    zwyciezca = "X";
+                    zwyciezca = gracz1;
                     x_wygrana.Text = (Int32.Parse(x_wygrana.Text) + 1).ToString();
                     
 
@@ -176,6 +176,8 @@ namespace Kółko_i_krzyżyk
         {
             Form2 f2 = new Form2();
             f2.ShowDialog();
+            label1.Text = gracz1;
+            label3.Text = gracz2;
         }
     }
 }

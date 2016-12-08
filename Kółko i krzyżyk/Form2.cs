@@ -22,5 +22,11 @@ namespace Kółko_i_krzyżyk
             Form1.NazwaGracza(p1.Text, p2.Text);
             this.Close();
         }
+
+        private void p2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar.ToString() == "\r")
+                button1.PerformClick();
+        }
     }
 }
